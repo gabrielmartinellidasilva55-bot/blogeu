@@ -271,3 +271,14 @@ footer p {
 .nav-links li:last-child a:hover {
     filter: brightness(1.2);
 }
+.foto {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza na horizontal */
+  
+}
+.ingredients-list {
+    line-height: 3.5; 
+}
+.steps-list {
+    line-height: 3.5; 
+}
