@@ -259,3 +259,15 @@ footer p {
 .btn-enviar:hover {
     filter: brightness(1.2);
 }
+
+/* Destaque para o link do GitHub */
+.nav-links li:last-child a {
+    background-color: var(--accent);
+    color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.nav-links li:last-child a:hover {
+    filter: brightness(1.2);
+}
