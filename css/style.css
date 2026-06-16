@@ -175,15 +175,15 @@ header {
 }
 
 .card-experiencia {
-    background-color: var(--bg-card); /* Usa a variável do seu tema */
+    background-color: var(--bg-card);
     padding: 20px;
     border-radius: 10px;
-    border-left: 5px solid var(--accent); /* Usa a cor de destaque do seu tema */
+    border-left: 5px solid var(--accent);
     transition: 0.3s;
 }
 
 .card-experiencia:hover {
-    filter: brightness(1.2); /* Efeito de brilho ao passar o mouse */
+    filter: brightness(1.2);
     transform: scale(1.02);
 }
 
