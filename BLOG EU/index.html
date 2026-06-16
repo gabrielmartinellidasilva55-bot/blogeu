@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Martinelli – Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-inner">
+            <a class="nav-logo" href="index.html">gab.dev</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html" target="_blank">Sobre Mim</a></li>
+                <li><a href="curriculum.html" target="_blank">Currículo</a></li>
+                <li><a href="receitas.html" target="_blank">Receitas</a></li>
+                <li><a href="contact.html" target="_blank">Contato</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="btn-icon" title="Diminuir fonte" onclick="diminuirFonte()">A-</button>
+                <button class="btn-icon" title="Aumentar fonte" onclick="aumentarFonte()">A+</button>
+                <button class="btn-icon" title="Alternar tema" onclick="mudarTema()">🌓</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="hero">
+            <p class="hero-tag">Estudante · 1º Semestre 18 anos</p>
+            <h1>Olá, sou <br><span>Gabriel Martinelli</span></h1>
+            <p class="hero-desc">Tenho 18 anos, moro em Sarandi — RS.</p>
+        </div>
+
+        <h2 class="section-title">Navegue pelo Blog</h2>
+        <div class="home-grid">
+            <a href="about.html" target="_blank" class="home-card">
+                <div class="card-icon">👤</div>
+                <h3>Sobre Mim</h3>
+                <p>Saiba mais sobre a minha história, meus hobbies no Counter-Strike, basquete e boxe.</p>
+            </a>
+
+            <a href="curriculum.html" target="_blank" class="home-card">
+                <div class="card-icon">💼</div>
+                <h3>Currículo</h3>
+                <p>Confira minha trajetória na Line Comunicação, Cotrisal e minhas habilidades técnicas.</p>
+            </a>
+
+            <a href="receitas.html" target="_blank" class="home-card">
+                <div class="card-icon"> pudding </div>
+                <h3>WebLab Receitas</h3>
+                <p>Veja a nossa receita estruturada de Mousse de Maracujá diretamente da aula.</p>
+            </a>
+
+            <a href="contact.html" target="_blank" class="home-card">
+                <div class="card-icon">📞</div>
+                <h3>Contato</h3>
+                <p>Mande uma mensagem diretamente para mim através do formulário de contato.</p>
+            </a>
+        </div>
+
+        <h2 class="section-title">// Últimas Postagens</h2>
+       <div class="gallery-item">
+            <img src="assets/cash.jpeg" alt="Gabriel com dinheiro">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/jurere.jpeg" alt="Gabriel em Jurerê">
+        </div>
+        <div class="gallery-item">
+            <img src="assets/trofeu.jpeg" alt="Gabriel com o troféu">
+            <img src="assets/volei.jpeg" alt="Gabriel volei">
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gabriel Martinelli da Silva – Sarandi, RS</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
